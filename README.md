@@ -1,7 +1,7 @@
 # NPR
 
 
-This is a very simple Non Personalized Recommender created as an assignment for tan online course.
+This is a very simple Non Personalized Recommender created as an assignment for an online course.
 
 ## Overview of the assignment
 
