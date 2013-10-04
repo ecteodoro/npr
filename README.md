@@ -1,7 +1,7 @@
 # NPR
 
 
-This is a very simple Non Personalized Recommender created as an assignment for the course "Recommender Systems" at Coursera.
+This is a very simple Non Personalized Recommender created as an assignment for tan online course.
 
 ## Overview of the assignment
 
