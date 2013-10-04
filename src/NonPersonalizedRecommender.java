@@ -179,8 +179,7 @@ public class NonPersonalizedRecommender {
      * @return the top N movies
      */
     private MovieScore[] topMoviesSimpleAssociation(int movie, Map<String, Map<String, Float>> ratings, int count) {
-        MovieScore[] topMovies = calculateTopMovies(movie, ratings, count, null, false);
-        return topMovies;
+        return calculateTopMovies(movie, ratings, count, null, false);
     }
 
     /**
@@ -193,8 +192,7 @@ public class NonPersonalizedRecommender {
      * @return
      */
     private MovieScore[] topMoviesAdvancedAssociation(int movie, Map<String, Map<String, Float>> ratings, int count, Map<String, String> users) {
-        MovieScore[] topMovies = calculateTopMovies(movie, ratings, count, users, true);
-        return topMovies;
+        return calculateTopMovies(movie, ratings, count, users, true);
     }
 
     /**
